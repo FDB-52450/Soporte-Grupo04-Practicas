@@ -1,0 +1,182 @@
+[
+  {
+    "category": "Greetings",
+    "translations": {
+      "en": "Hello",
+      "es": "Hola",
+      "fr": "Bonjour",
+      "de": "Hallo",
+      "it": "Ciao"
+    }
+  },
+  {
+    "category": "Greetings",
+    "translations": {
+      "en": "Good morning",
+      "es": "Buenos días",
+      "fr": "Bonjour",
+      "de": "Guten Morgen",
+      "it": "Buongiorno"
+    }
+  },
+  {
+    "category": "Greetings",
+    "translations": {
+      "en": "Good evening",
+      "es": "Buenas tardes",
+      "fr": "Bonsoir",
+      "de": "Guten Abend",
+      "it": "Buonasera"
+    }
+  },
+  {
+    "category": "Greetings",
+    "translations": {
+      "en": "Goodbye",
+      "es": "Adiós",
+      "fr": "Au revoir",
+      "de": "Auf Wiedersehen",
+      "it": "Arrivederci"
+    }
+  },
+  {
+    "category": "Politeness",
+    "translations": {
+      "en": "Please",
+      "es": "Por favor",
+      "fr": "S'il vous plaît",
+      "de": "Bitte",
+      "it": "Per favore"
+    }
+  },
+  {
+    "category": "Politeness",
+    "translations": {
+      "en": "Thank you",
+      "es": "Gracias",
+      "fr": "Merci",
+      "de": "Danke",
+      "it": "Grazie"
+    }
+  },
+  {
+    "category": "Politeness",
+    "translations": {
+      "en": "You're welcome",
+      "es": "De nada",
+      "fr": "De rien",
+      "de": "Gern geschehen",
+      "it": "Prego"
+    }
+  },
+  {
+    "category": "Conversation",
+    "translations": {
+      "en": "How are you?",
+      "es": "¿Cómo estás?",
+      "fr": "Comment allez-vous ?",
+      "de": "Wie geht es dir?",
+      "it": "Come stai?"
+    }
+  },
+  {
+    "category": "Conversation",
+    "translations": {
+      "en": "I'm fine",
+      "es": "Estoy bien",
+      "fr": "Je vais bien",
+      "de": "Mir geht es gut",
+      "it": "Sto bene"
+    }
+  },
+  {
+    "category": "Conversation",
+    "translations": {
+      "en": "What is your name?",
+      "es": "¿Cómo te llamas?",
+      "fr": "Comment vous appelez-vous ?",
+      "de": "Wie heißt du?",
+      "it": "Come ti chiami?"
+    }
+  },
+  {
+    "category": "Travel",
+    "translations": {
+      "en": "Where is the station?",
+      "es": "¿Dónde está la estación?",
+      "fr": "Où est la gare ?",
+      "de": "Wo ist der Bahnhof?",
+      "it": "Dov'è la stazione?"
+    }
+  },
+  {
+    "category": "Travel",
+    "translations": {
+      "en": "I need a taxi",
+      "es": "Necesito un taxi",
+      "fr": "J'ai besoin d'un taxi",
+      "de": "Ich brauche ein Taxi",
+      "it": "Ho bisogno di un taxi"
+    }
+  },
+  {
+    "category": "Restaurant",
+    "translations": {
+      "en": "The menu, please",
+      "es": "El menú, por favor",
+      "fr": "Le menu, s'il vous plaît",
+      "de": "Die Speisekarte, bitte",
+      "it": "Il menù, per favore"
+    }
+  },
+  {
+    "category": "Restaurant",
+    "translations": {
+      "en": "Water",
+      "es": "Agua",
+      "fr": "Eau",
+      "de": "Wasser",
+      "it": "Acqua"
+    }
+  },
+  {
+    "category": "Restaurant",
+    "translations": {
+      "en": "Coffee",
+      "es": "Café",
+      "fr": "Café",
+      "de": "Kaffee",
+      "it": "Caffè"
+    }
+  },
+  {
+    "category": "Emergency",
+    "translations": {
+      "en": "Help!",
+      "es": "¡Ayuda!",
+      "fr": "À l'aide !",
+      "de": "Hilfe!",
+      "it": "Aiuto!"
+    }
+  },
+  {
+    "category": "Emergency",
+    "translations": {
+      "en": "Call the police",
+      "es": "Llame a la policía",
+      "fr": "Appelez la police",
+      "de": "Rufen Sie die Polizei",
+      "it": "Chiami la polizia"
+    }
+  },
+  {
+    "category": "Emergency",
+    "translations": {
+      "en": "I need a doctor",
+      "es": "Necesito un médico",
+      "fr": "J'ai besoin d'un médecin",
+      "de": "Ich brauche einen Arzt",
+      "it": "Ho bisogno di un medico"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+BoxLayout:
+    orientation: 'vertical'
+    spacing: 10
+    padding: 10
+
+    Label:
+        text: "Score: " + str(app.score)
+        font_size: 36
+        size_hint: (1, 0.15)
+    
+    Label:
+        text: app.currentLetter
+        font_size: 120
+        bold: True
+        size_hint: (1, 0.45)
+
+    VKeyboard:
+        layout_mode: 'normal'
+        on_textinput: app.on_text_input(*args)
+    

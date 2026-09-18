@@ -1,0 +1,117 @@
+<GTTSGame>:
+    orientation: 'vertical'
+    spacing: 10
+    padding: 12
+
+    Label:
+        text: "GUESS THE LANGUAGE!"
+        font_size: '50sp'
+        bold: True
+
+
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            text: "Score: {0}".format(root.score)
+            bold: True
+            halign: 'center'
+            valign: 'middle'
+            font_size: '30sp'
+            text_size: self.size
+
+        Label:
+            text: "Loops: {0}".format(root.loops)
+            bold: True
+            halign: 'center'
+            valign: 'middle'
+            font_size: '20sp'
+            text_size: self.size
+
+    Label:
+        text: "Guess the language from the sentence audio"
+        font_size: "20sp"
+        size_hint_y: None
+        height: 40
+    
+    BoxLayout:
+        size_hint_y: None
+        height: 40
+        spacing: 10
+
+        Button:
+            id: start_button
+            text: "Start"
+            on_press: root.on_start()
+
+        Button:
+            id: play_button
+            text: "Play Audio"
+            on_press: root.on_play()
+            disabled: True
+
+        Button:
+            id: retry_button
+            text: "Retry"
+            on_press: root.on_retry()
+            disabled: True
+
+    Label:
+        id: feedback_label
+        text: root.feedback_text
+        halign: "center"
+        valign: "middle"
+        size_hint_y: None
+        height: 40
+        text_size: self.width - 20, None
+
+    GridLayout:
+        id: language_buttons
+        cols: 5
+        spacing: 8
+        size_hint_y: None
+        height: 80
+
+        Button:
+            text: "English"
+            on_press: root.on_guess("en")
+            disabled: True
+
+        Button:
+            text: "Spanish"
+            on_press: root.on_guess("es")
+            disabled: True
+
+        Button:
+            text: "French"
+            on_press: root.on_guess("fr")
+            disabled: True
+
+        Button:
+            text: "German"
+            on_press: root.on_guess("de")
+            disabled: True
+
+        Button:
+            text: "Italian"
+            on_press: root.on_guess("it")
+            disabled: True
+
+    Label:
+        id: status_label
+        text: root.status_text
+        halign: "center"
+        valign: "middle"
+        size_hint_y: None
+        height: 30
+        text_size: self.width - 20, None
+
+    Label:
+        id: timer_label
+        text: root.timer_text
+        halign: "center"
+        valign: "middle"
+        size_hint_y: None
+        height: 30
+        text_size: self.width - 20, None
+
