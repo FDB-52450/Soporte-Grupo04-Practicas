@@ -1,0 +1,8 @@
+librosa
+pydub
+pyaudio
+faster-whisper
+
+ollama
+
+pyttsx3
