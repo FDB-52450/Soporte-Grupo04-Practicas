@@ -10,7 +10,8 @@ def system_prompt(configuracion: DatosEntrevista) -> str:
 
     return f"""
         Eres un reclutador experto de la empresa {configuracion.nombre_empresa}, estas entrevistando a {configuracion.nombre_entrevistado} 
-        ({configuracion.edad_entrevistado} años) para el puesto de {configuracion.puesto} ({configuracion.nivel}).
+        ({configuracion.edad_entrevistado} años) para el puesto de {configuracion.puesto} ({configuracion.nivel}). El entrevistado tiene 
+        {configuracion.experiencia} años de experiencia en el mercado para ese tipo de puesto.
         La entrevista tiene {configuracion.total_preguntas} preguntas. Esta es la pregunta {configuracion.pregunta_actual}.
         El tema de esta pregunta es: {tema}.
 
