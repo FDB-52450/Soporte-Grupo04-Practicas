@@ -25,6 +25,7 @@ if __name__ == '__main__':
         nombre_empresa = 'MercadoLibre',
         puesto = "Desarrollador Python",
         nivel = "junior",
+        experiencia = 5,
         total_preguntas = 3,
         temas = ["Experiencia", "Resolución de problemas", "Trabajo en equipo"],
     )

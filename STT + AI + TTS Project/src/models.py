@@ -4,9 +4,11 @@ from dataclasses import dataclass, field
 class DatosEntrevista:
     nombre_entrevistado: str
     edad_entrevistado: int
+
     nombre_empresa: str
     puesto: str
     nivel: str
+    experiencia: int # Años de experiencia
 
     total_preguntas: int
     temas: list[str]
